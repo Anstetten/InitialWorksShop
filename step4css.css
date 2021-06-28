@@ -78,3 +78,83 @@ tr:nth-child(2) td:nth-child(5){
     margin-right: 75%;
     
 }
+
+/*Iteration 4*/
+#inlineBlockBox{
+   width:300px;
+}
+#inlineBlockBox>div{
+    margin: 2px 0;
+ }
+
+#upperRow{
+    width: auto;
+}
+
+#upperRow div{
+    border-left: 2px solid black;
+    background-color: red;
+    margin:0;
+}
+
+#lowerRow{
+    width: auto;
+}
+
+#lowerRow div{
+    border-left: 2px solid red;
+    background-color: black;
+    
+}
+
+#inlineBlockBox> div >div {
+    display: inline-block;
+    color:white;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    margin-right: -4px;
+    text-align: center;
+    height:75px;
+    font-size: 15px;
+     padding:30px;
+}
+
+/*ITeration Flexbox*/
+#flexBlock{
+   width:300px;
+
+}
+
+
+#flexBlock>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2px 0;
+    height:75px;
+ }
+
+ #flexBlock>div>div{
+    color: white;
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+    padding:30px;
+    
+ }
+
+ #upperRowFlex div{
+        
+     background-color: orange;
+     border-right: 2px solid green;
+     display: flex;
+ }
+
+ #lowerRowFlex div{
+    
+    background-color: green;
+    border-right: 2px solid orange;
+}
+
+
