@@ -1,0 +1,10 @@
+body span{
+    color: red;
+    font-weight: 800;
+    
+}
+
+#exampleSpan{
+    color: green;
+    background-color: greenyellow;
+}
