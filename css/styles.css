@@ -28,3 +28,7 @@ body table,td{
     border-spacing: 0px;
     
 }
+
+iframe{
+    margin: 20px 0;
+}
