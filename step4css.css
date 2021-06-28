@@ -1,0 +1,13 @@
+#box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+#target{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin:50px;
+    border: 2px dashed black;
+}
