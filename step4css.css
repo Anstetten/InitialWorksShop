@@ -30,3 +30,51 @@ tr:nth-child(2) td:nth-child(3),
 tr:nth-child(2) td:nth-child(5){
     background-color: blue;
 }
+
+#purbleBlockBox{
+    width:300px;
+}
+
+#purbleBlockBox>div{
+    border: 1px solid black;
+    margin:5px 0;
+    color: white;
+    align-items: center;
+}
+
+#upperBox div{
+    background-color: purple;
+    
+}
+
+#upperBox div:first-child{
+    width:25%;
+    margin: 2px 2px;
+}
+
+#upperBox div:last-child{
+    width:75%;
+    margin: 0 2px;
+}
+
+#lowerBox div{
+    background-color: purple;
+    text-align: end;
+    box-sizing: border-box;
+    }
+
+    
+#lowerBox div:first-child{
+    margin-top: 2px;
+    margin-right: 2px;
+    
+    margin-left:25%;
+    
+}
+
+#lowerBox div:last-child{
+    
+    margin-left:2px;
+    margin-right: 75%;
+    
+}
