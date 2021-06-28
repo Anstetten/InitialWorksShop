@@ -19,3 +19,12 @@ body table,td{
     border:1px solid red;
     color: red;
 }
+
+#complicatedTable thead{
+    font-weight: bolder;
+}
+
+#complicatedTable{
+    border-spacing: 0px;
+    
+}
