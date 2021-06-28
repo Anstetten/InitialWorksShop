@@ -1,10 +1,21 @@
 body span{
     color: red;
     font-weight: 800;
-    
+
 }
 
 #exampleSpan{
     color: green;
     background-color: greenyellow;
+}
+
+body table,td{
+    text-align: center;
+    border:1px solid black;
+    
+}
+
+.redCards{
+    border:1px solid red;
+    color: red;
 }
